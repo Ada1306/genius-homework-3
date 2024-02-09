@@ -488,6 +488,7 @@ margin-bottom: 48px;
     line-height: 1.17;
 }
 
+/* Modal */
 .backdrop {
     position: fixed;
     top: 0;
@@ -497,11 +498,11 @@ margin-bottom: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #747272; /* add var color */
+    background-color: rgba(0, 0, 0, 0.5) /*#747272; /* add var color */
 }
 
 .backdrop.is-hidden {
-    opacity: o;
+    opacity: 0;
     visibility: hidden;
     pointer-events: none;
 }
@@ -510,8 +511,6 @@ margin-bottom: 48px;
     position: relative;
     width: 723px; 
     height: 681px;
-    /* top: 171px 
-    left: 359px  */
     background-color: var(--color-brand-dark);
     border-radius: 48px;
 }
