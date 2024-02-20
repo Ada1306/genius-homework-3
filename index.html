@@ -9,7 +9,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+<!-- <div class="container"> -->
       <div class="header-container">
         <nav class="header-nav">
           <a href="/">
@@ -46,12 +46,12 @@
               </a>
             </li>
             </ul>
+<!-- </div> -->
         </div>
-      </div>
     </header>
     <main>
       <section class="hero-section">
-       <div class="container">
+<!-- <div class="container"> -->
         <div class="hero-container">
           <p>Косметологічна клініка</p>
           <h1 lang="en" class="hero-title">Beauty <br />Zone</h1>
@@ -60,12 +60,12 @@
             <span class="brand">Запишись та отримай безкоштовну консультацію нашого
               косметолога</span>
           </p>
-        </div>
-       </div>
+</div>
+        <!-- </div> -->
       </section>
       <div class="why-us-background">
       <section class="about-us-section section" id="about-us-section">
-        <div class="container">
+<!-- <div class="container"> -->
           <div class="about-us-container">
   <div class="about-us-content">
     <h2 class="about-us-title section-title">Перевтілюйтесь <br />в <span class="accent">Beauty Zone!</span>
@@ -100,11 +100,11 @@
    </li>
     </ul>
 </div>
+<!-- </div> -->
           </div>
-        </div>
       </section>
       <section class="why-us-section section" id="why-us-section">
-       <div class="container">
+<!-- <div class="container"> -->
         <div class="why-us-container">
         <div class="why-us-content">
           <div class="why-us-background"></div>
@@ -146,12 +146,12 @@
         </article>
       </li>
       </ul>
-      </div>
+</div>
+      <!-- </div> -->
     </div>
-       </div>
       </section>
       <section class="section" id="our-procedures-section">
-        <div class="container">
+<!-- <div class="container"> -->
             <h2 class="our-procedures-title section-title centered">
               Наші <span class="accent">процедури</span>
             </h2>
@@ -192,12 +192,12 @@
               <use href="./images/icons.svg#icon-arrow"></use>
             </svg>
           </button>
-            </div>
-          </div>
+</div>
+            <!-- </div> -->
       </section>
-      </div>
+</div>
       <section class="contact-section section" id="contact-section">
-        <div class="container">
+<!-- <div class="container"> -->
             <h2 class="contact-title section-title centered">
               Як нас <span class="accent">знайти
               </span>
@@ -208,26 +208,36 @@
                 width="605" height="481" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
               </iframe>
               <div class="contact-form">
-            <p class="contact-text">
-              <span> Запишіться <span class="brand">безкоштовно</span> та отримайте подарунок </span>
+            <p class="contact-text limited">
+              <span> Запишіться <span class="brand">безкоштовно </span>  та отримайте подарунок </span>
             </p>
-            <!-- form -->
-          </div>
-            <!-- <iframe
-              class="contact-map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.829565016172!2d30.507484899999998!3d50.44427520000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef7ac54a97b%3A0x8f8e22354e24b0e3!2z0LHRg9C7LiDQotCw0YDQsNGB0LAg0KjQtdCy0YfQtdC90LrQviwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1701970789465!5m2!1sru!2sua"
-              width="605" 
-              height="481" 
-              allowfullscreen="" 
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade">
-              </iframe> -->
+          <form name="contact-form" autocomplete="off">
+            <div class="form-field">
+              <label class="form-label visually-hidden" for="user-name">Ваше ім'я та прізвище</label>
+              <input class="form-input" type="text" name="user-name" id="user-name" placeholder="Ваше ім'я та прізвище">
+            </div>
+          
+            <div class="form-field">
+              <label class="form-label visually-hidden" for="user-tel">Ваш номер телефону</label>
+              <input class="form-input" type="tel" name="user-tel" id="user-tel" placeholder="Ваш номер телефону">
+            </div>
+          
+            <div class="form-field">
+              <label class="form-label visually-hidden" for="user-email">Ваша електронна пошта</label>
+              <input class="form-input" type="email" name="user-email" id="user-email" placeholder="Ваша електронна пошта">
+            </div>
+          
+            <button class="form-button button" type="submit">Записатись безкоштовно</button>
+            <p class="form-terms">Натискаючи на кнопку я погоджуюсь
+              <a class="form-terms-link" href="#"> з політикою конфіденційності</a>
+            </p>
+          </form>
+        </div>
               </div>
-          </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
+<!-- <div class="container"> -->
         <div class="footer-container">
         <nav class="footer-nav">
           <div class="footer-logo">
@@ -258,6 +268,7 @@
       <a class="address-link" href="https://maps.app.goo.gl/xqURyBp9Ejh7N3R17" target="_blank">
         Україна, м. Київ, <br /> вул. Тараса Шевченка 5
       </a>
+    </li>
     <li>
       <a href="#">
         <svg class="address-icons" width="42" height="42">
@@ -286,12 +297,56 @@
   <p class="address-copyright">&copy; 2022 Дані захищені</p>
         </div>
           </address>
-        </div>
-      </div>
+</div>
+        <!-- </div> -->
     </footer>
-<div class="backdrop is-hidden">
+<div class="backdrop ">
   <div class="modal">
           <button class="modal-btn-close" type="button">Close</button>
+          <h2 class="modal-text">Замовити <br/> дзвінок</h2>
+          <p class="contact-text">
+            <span> Запишіться <span class="brand">безкоштовно </span> <br>та отримайте подарунок </span>
+          </p>
+  <form name="modal-form" autocomplete="on">
+<div class="form-field">
+      <label class="form-label visually-hidden" for="full-name">Ваше ім'я та прізвище</label>
+      <input class="form-input" 
+      type="text" 
+      name="full-name" 
+      id="full-name" 
+      placeholder="Ваше ім'я та прізвище" 
+      required 
+      />
+</div>
+            
+<div class="form-field">
+      <label class="form-label visually-hidden" for="user-tel">Ваш номер телефону</label>
+      <input class="form-input" 
+      type="tel" 
+      name="user-tel" 
+      id="user-tel" 
+      placeholder="Ваш номер телефону" 
+      pattern="^\+380[0-9]{9}"
+      required 
+      />
+</div>
+            
+<div class="form-field">
+      <label class="form-label visually-hidden" for="user-email">Ваша електронна пошта</label>
+      <input class="form-input" 
+      type="email" 
+      name="user-email" 
+      id="user-email" 
+      placeholder="Ваша електронна пошта" 
+      required 
+      />
+</div>
+            
+    <button class="form-button button" type="submit">Записатись безкоштовно</button>
+      <p class="form-terms">Натискаючи на кнопку я погоджуюсь
+        <a class="form-terms-link" href="#"> з політикою конфіденційності</a>
+      </p>
+    </form>
   </div>
 </div>
 
